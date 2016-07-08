@@ -1,1 +1,5 @@
-﻿{ "Name": "DemoNavMenu" }
+﻿{
+	"Name": "DemoNavMenu",
+	"CacheTime": 15,
+	"CacheBy": "Locale"
+}
