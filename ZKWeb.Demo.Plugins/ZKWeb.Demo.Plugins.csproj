@@ -148,6 +148,10 @@
       <HintPath>..\packages\ZKWeb.1.0.0-beta-5\lib\net461\ZKWeb.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="ZKWeb.Plugins, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZKWeb.Plugins.0.9.0\lib\net461\ZKWeb.Plugins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="ZKWebStandard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ZKWeb.1.0.0-beta-5\lib\net461\ZKWebStandard.dll</HintPath>
       <Private>True</Private>
