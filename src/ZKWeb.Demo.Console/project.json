@@ -1,0 +1,31 @@
+{
+	"version": "1.0.0-*",
+	"dependencies": {
+		"ZKWeb": "1.0.0-rc-1d",
+		"ZKWeb.Hosting.AspNetCore": "1.0.0-rc-1d",
+		"ZKWeb.ORM.InMemory": "1.0.0-rc-1d"
+	},
+	"buildOptions": {
+		"emitEntryPoint": true
+	},
+	"frameworks": {
+		"net461": {
+			"dependencies": {
+				"ZKWeb.ORM.NHibernate": "1.0.0-rc-1d"
+			}
+		},
+		"netcoreapp1.0": {
+			"imports": [
+				"dotnet5.6",
+				"portable-net45+win8"
+			],
+			"buildOptions": { "define": [ "NETCORE" ] },
+			"dependencies": {
+				"Microsoft.NETCore.App": {
+					"type": "platform",
+					"version": "1.0.0"
+				}
+			}
+		}
+	}
+}
