@@ -6,7 +6,7 @@
 	"frameworks": {
 		"net461": {
 			"dependencies": {
-				"ZKWeb.Plugins": "0.9.0"
+				"ZKWeb.Plugins": "0.9.0.1"
 			}
 		},
 		"netstandard1.6": {
