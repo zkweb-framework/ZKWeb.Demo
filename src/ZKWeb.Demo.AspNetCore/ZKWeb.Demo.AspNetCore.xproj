@@ -7,7 +7,7 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>5d86faa3-67a3-4240-9757-e94997f78b1b</ProjectGuid>
+    <ProjectGuid>c0a92286-86d9-4480-89a3-5ef14d756a55</ProjectGuid>
     <RootNamespace>ZKWeb.Demo.AspNetCore</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
