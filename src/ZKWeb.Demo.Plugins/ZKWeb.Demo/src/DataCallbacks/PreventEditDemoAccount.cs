@@ -1,4 +1,5 @@
-﻿using ZKWeb.Database;
+﻿#if TODO
+using ZKWeb.Database;
 using ZKWeb.Localize;
 using ZKWeb.Plugins.Common.Admin.src.Database;
 using ZKWeb.Plugins.Common.Base.src.Model;
@@ -24,3 +25,4 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.DataCallbacks {
 		}
 	}
 }
+#endif
