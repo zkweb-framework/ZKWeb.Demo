@@ -4,11 +4,11 @@
 	"ConnectionString": "Server=127.0.0.1;Port=5432;Database=zkweb;User Id=postgres;Password=123456;",
 	"PluginDirectories": [
 		"../ZKWeb.Demo.Plugins",
-		"../../../ZKWeb.Plugins"
+		"../../../ZKWeb.Plugins/src/ZKWeb.Plugins"
 	],
 	"Plugins": [
 		"Common.Base",
-		/*"Common.Captcha",
+		"Common.Captcha",
 		"Common.Admin",
 		"Common.MenuPage",
 		"Common.AdminSettings",
@@ -35,6 +35,6 @@
 		"Shopping.AfterSales",
 		"UnitTest.WebTester",
 		"ZKWeb.Demo",
-		"Common.CustomTranslate"*/
+		"Common.CustomTranslate"
 	]
 }

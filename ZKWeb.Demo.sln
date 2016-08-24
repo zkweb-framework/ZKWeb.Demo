@@ -1,4 +1,3 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
@@ -10,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.AspNetCore", "src\ZKWeb.Demo.AspNetCore\ZKWeb.Demo.AspNetCore.xproj", "{c0a92286-86d9-4480-89a3-5ef14d756a55}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.AspNetCore", "src\ZKWeb.Demo.AspNetCore\ZKWeb.Demo.AspNetCore.xproj", "{C0A92286-86D9-4480-89A3-5EF14D756A55}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.Console", "src\ZKWeb.Demo.Console\ZKWeb.Demo.Console.xproj", "{a51b00cd-4703-4bba-b45a-f25ef7b55621}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.Console", "src\ZKWeb.Demo.Console\ZKWeb.Demo.Console.xproj", "{A51B00CD-4703-4BBA-B45A-F25EF7B55621}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.Plugins", "src\ZKWeb.Demo.Plugins\ZKWeb.Demo.Plugins.xproj", "{da2bbb61-461b-4b2b-b431-5a9b6a80cdac}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.Plugins", "src\ZKWeb.Demo.Plugins\ZKWeb.Demo.Plugins.xproj", "{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,25 +21,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{c0a92286-86d9-4480-89a3-5ef14d756a55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{c0a92286-86d9-4480-89a3-5ef14d756a55}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{c0a92286-86d9-4480-89a3-5ef14d756a55}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{c0a92286-86d9-4480-89a3-5ef14d756a55}.Release|Any CPU.Build.0 = Release|Any CPU
-		{a51b00cd-4703-4bba-b45a-f25ef7b55621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{a51b00cd-4703-4bba-b45a-f25ef7b55621}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{a51b00cd-4703-4bba-b45a-f25ef7b55621}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{a51b00cd-4703-4bba-b45a-f25ef7b55621}.Release|Any CPU.Build.0 = Release|Any CPU
-		{da2bbb61-461b-4b2b-b431-5a9b6a80cdac}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{da2bbb61-461b-4b2b-b431-5a9b6a80cdac}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{da2bbb61-461b-4b2b-b431-5a9b6a80cdac}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{da2bbb61-461b-4b2b-b431-5a9b6a80cdac}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A92286-86D9-4480-89A3-5EF14D756A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A92286-86D9-4480-89A3-5EF14D756A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A92286-86D9-4480-89A3-5EF14D756A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A92286-86D9-4480-89A3-5EF14D756A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51B00CD-4703-4BBA-B45A-F25EF7B55621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51B00CD-4703-4BBA-B45A-F25EF7B55621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51B00CD-4703-4BBA-B45A-F25EF7B55621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51B00CD-4703-4BBA-B45A-F25EF7B55621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{c0a92286-86d9-4480-89a3-5ef14d756a55} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
-		{a51b00cd-4703-4bba-b45a-f25ef7b55621} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
-		{da2bbb61-461b-4b2b-b431-5a9b6a80cdac} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
+		{C0A92286-86D9-4480-89A3-5EF14D756A55} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
+		{A51B00CD-4703-4BBA-B45A-F25EF7B55621} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
+		{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
 	EndGlobalSection
 EndGlobal
