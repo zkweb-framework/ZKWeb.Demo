@@ -33,7 +33,7 @@
 		"Shopping.Logistics",
 		"Shopping.Order",
 		"Shopping.AfterSales",
-		"UnitTest.WebTester",
+		"Testing.WebTester",
 		"ZKWeb.Demo",
 		"Common.CustomTranslate"
 	]
