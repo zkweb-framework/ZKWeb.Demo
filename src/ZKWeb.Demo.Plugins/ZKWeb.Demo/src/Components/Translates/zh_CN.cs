@@ -3,18 +3,18 @@ using ZKWeb.Localize;
 using ZKWebStandard.Extensions;
 using ZKWebStandard.Ioc;
 
-namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Translates {
+namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 	/// <summary>
-	/// 韩语翻译
+	/// 中文翻译
 	/// </summary>
 	[ExportMany, SingletonReuse]
-	public class ko_KR : ITranslateProvider {
-		private static HashSet<string> Codes = new HashSet<string>() { "ko-KR" };
+	public class zh_CN : ITranslateProvider {
+		private static HashSet<string> Codes = new HashSet<string>() { "zh-CN" };
 		private static Dictionary<string, string> Translates = new Dictionary<string, string>()
 		{
-			{ "Demo", "표시" },
-			{ "Trun website into demo mode", "데모 모드를 활성화 사이트" },
-			{ "Edit or delete demo account is not allowed", "편집하거나 데모 계정을 삭제할 수 없습니다" }
+			{ "Demo", "演示" },
+			{ "Trun website into demo mode", "启用网站的演示模式" },
+			{ "Edit or delete demo account is not allowed", "不允许编辑或删除演示用的账号" }
 		};
 
 		public bool CanTranslate(string code) {

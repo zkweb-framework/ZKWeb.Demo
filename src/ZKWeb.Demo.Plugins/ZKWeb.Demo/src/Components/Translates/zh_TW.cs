@@ -3,18 +3,18 @@ using ZKWeb.Localize;
 using ZKWebStandard.Extensions;
 using ZKWebStandard.Ioc;
 
-namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Translates {
+namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 	/// <summary>
-	/// 中文翻译
+	/// 繁体中文翻译
 	/// </summary>
 	[ExportMany, SingletonReuse]
-	public class zh_CN : ITranslateProvider {
-		private static HashSet<string> Codes = new HashSet<string>() { "zh-CN" };
+	public class zh_TW : ITranslateProvider {
+		private static HashSet<string> Codes = new HashSet<string>() { "zh-TW" };
 		private static Dictionary<string, string> Translates = new Dictionary<string, string>()
 		{
 			{ "Demo", "演示" },
-			{ "Trun website into demo mode", "启用网站的演示模式" },
-			{ "Edit or delete demo account is not allowed", "不允许编辑或删除演示用的账号" }
+			{ "Trun website into demo mode", "啟用網站的演示模式" },
+			{ "Edit or delete demo account is not allowed", "不允許編輯或刪除演示用的賬號" }
 		};
 
 		public bool CanTranslate(string code) {

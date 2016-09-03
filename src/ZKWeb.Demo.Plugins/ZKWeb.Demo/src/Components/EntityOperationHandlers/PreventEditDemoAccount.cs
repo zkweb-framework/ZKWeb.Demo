@@ -1,11 +1,10 @@
-﻿#if TODO
-using ZKWeb.Database;
+﻿using ZKWeb.Database;
 using ZKWeb.Localize;
-using ZKWeb.Plugins.Common.Admin.src.Database;
-using ZKWeb.Plugins.Common.Base.src.Model;
+using ZKWeb.Plugins.Common.Admin.src.Domain.Entities;
+using ZKWeb.Plugins.Common.Base.src.Components.Exceptions;
 using ZKWebStandard.Ioc;
 
-namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.DataCallbacks {
+namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.EntityOperationHandlers {
 	/// <summary>
 	/// 防止编辑和删除演示用的账号
 	/// </summary>
@@ -25,4 +24,3 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.DataCallbacks {
 		}
 	}
 }
-#endif

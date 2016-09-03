@@ -14,8 +14,8 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src {
 		public Plugin() {
 			// 注册默认模块
 			var areaManager = Application.Ioc.Resolve<TemplateAreaManager>();
-			areaManager.GetArea("header_menubar").DefaultWidgets.Add("demo.widgets/demo_nav_menu");
-			areaManager.GetArea("index_top_area_1").DefaultWidgets.Add("demo.widgets/demo_index");
+			areaManager.GetArea("index_top_area_1").DefaultWidgets.AddBefore("", "demo.widgets/demo_index");
+			areaManager.GetArea("header_menubar").DefaultWidgets.AddBefore("", "demo.widgets/demo_nav_menu");
 		}
 	}
 }
