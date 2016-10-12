@@ -35,6 +35,8 @@
 		"Shopping.AfterSales",
 		"Testing.WebTester",
 		"ZKWeb.Demo",
+		"Experiment.RedisCache",
+		"Experiment.RedisFileStorage",
 		"Common.CustomTranslate"
 	]
 }

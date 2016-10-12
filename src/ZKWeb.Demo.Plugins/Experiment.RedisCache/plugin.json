@@ -1,0 +1,6 @@
+﻿{
+	"Name": "Redis Cache",
+	"Description": "Redis cache provider",
+	"Dependencies": [],
+	"References": [ "StackExchange.Redis" ]
+}

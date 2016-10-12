@@ -2,7 +2,8 @@
 	"version": "1.0.0-*",
 	"dependencies": {
 		"ZKWeb": "1.1.0-final",
-		"ZKWeb.Plugins": "1.0.0-beta-2"
+		"ZKWeb.Plugins": "1.0.0-beta-2",
+		"StackExchange.Redis": "1.1.608"
 	},
 	"frameworks": {
 		"net461": {},

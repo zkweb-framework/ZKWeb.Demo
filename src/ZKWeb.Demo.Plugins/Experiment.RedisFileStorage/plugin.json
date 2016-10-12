@@ -1,0 +1,5 @@
+﻿{
+	"Name": "Redis File Storage",
+	"Description": "Redis file storage provider",
+	"Dependencies": [ ]
+}
