@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="{% html_lang %}">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta charset="utf-8" />
+	<link href="/static/favicon.ico" rel="icon" type="image/x-icon" />
+	<title>{{ "ZKWeb Framework" | trans }}</title>
+	{% include_css_here "/static/common.base.css/components.css" %}
+	{% include_css_here "/static/demo.css/index.css" %}
+</head>
+<body>
+	<section class="header">
+		<a class="view-on-github" href="https://github.com/zkweb-framework/zkweb">
+			<img src="/static/demo.images/github-light.png" />
+			{{ "View on GITHUB" | trans }}
+		</a>
+		<h1 class="logo">
+			{{ "ZKWeb Framework" | trans }}
+		</h1>
+		<h3>{{ "Flexible web framework support .Net Framework and .Net Core" | trans }}</h3>
+		<div class="icons">
+			<a href="https://github.com/zkweb-framework/zkweb"><img src="https://img.shields.io/github/forks/zkweb-framework/zkweb.svg?style=social&label=Fork" /></a>
+			<a><img src="https://img.shields.io/github/license/zkweb-framework/zkweb.svg" alt=""></a>
+			<a href="http://www.nuget.org/packages/ZKWeb"><img src="https://camo.githubusercontent.com/494393efbd6c16b5e3caaa16164b73fff22f5723/68747470733a2f2f6275696c6473746174732e696e666f2f6e756765742f5a4b576562" alt="NuGet" data-canonical-src="https://buildstats.info/nuget/ZKWeb" style="max-width:100%;"></a>
+		</div>
+		<div class="row summary">
+			<div class="col-md-4">
+				<div class="summary-inner">
+					<h3>{{ "Dynamic Plugins" | trans }}</h3>
+					<p>{{ "Powered by roslyn, support automatic recompile after source code changed." | trans }}</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="summary-inner">
+					<h3>{{ "Disinct Web Layer" | trans }}</h3>
+					<p>{{ "Support running on Asp.Net, Asp.Net Core, Owin, no code difference." | trans }}</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="summary-inner">
+					<h3>{{ "Multiple ORM Support" | trans }}</h3>
+					<p>{{ "Support EFCore, NHibernate, Dapper, MongoDB, InMemory, through the same interface." | trans }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</section>
+	<section class="introduction">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>{{ "Dynamic plugins" | trans }}</h3>
+				<h4>{{ "Powered by roslyn." | trans }}</h4>
+				<h4>{{ "Support runtime plugin reload." | trans }}</h4>
+				<h4>{{ "Support automatic recompile and reload after plugin source code changed." | trans }}</h4>
+				<br />
+				<h4>{{ "Directory based, small memory footprint." | trans }}</h4>
+			</div>
+			<div class="col-md-4">
+				<img src="/static/demo.images/intro-plugins.jpg" />
+			</div>
+		</div>
+	</section>
+	<section class="introduction">
+		<div class="row">
+			<div class="col-md-7">
+				<h3>{{ "Disinct Web Layer" | trans }}</h3>
+				<h4>{{ "Support running on Asp.Net, Asp.Net Core, Owin, no code difference." | trans }}</h4>
+			</div>
+			<div class="col-md-5">
+				<img src="/static/demo.images/intro-web-layer.png" />
+			</div>
+		</div>
+	</section>
+	<section class="introduction">
+		About Multiple ORM support
+	</section>
+	<section class="introduction">
+		About Template system
+	</section>
+	<section class="introduction">
+		About Project toolkit
+	</section>
+	<section class="introduction">
+		About demo site
+	</section>
+	<section class="footer">
+		Here is footer
+	</section>
+	{% include_js_here "/static/common.base.js/components.min.js" %}
+	{% include_js_here "/static/demo.js/index.min.js" %}
+</body>
+</html>
