@@ -48,11 +48,10 @@
 	<section class="introduction">
 		<div class="row">
 			<div class="col-md-8">
-				<h3>{{ "Dynamic plugins" | trans }}</h3>
-				<h4>{{ "Powered by roslyn." | trans }}</h4>
+				<h3>{{ "Dynamic Plugins" | trans }}</h3>
+				<h4>{{ "Powered by roslyn, support c# 6.0 features." | trans }}</h4>
 				<h4>{{ "Support runtime plugin reload." | trans }}</h4>
 				<h4>{{ "Support automatic recompile and reload after plugin source code changed." | trans }}</h4>
-				<br />
 				<h4>{{ "Directory based, small memory footprint." | trans }}</h4>
 			</div>
 			<div class="col-md-4">
@@ -65,6 +64,7 @@
 			<div class="col-md-7">
 				<h3>{{ "Disinct Web Layer" | trans }}</h3>
 				<h4>{{ "Support running on Asp.Net, Asp.Net Core, Owin, no code difference." | trans }}</h4>
+				<h4>{{ "Custom MVC routing and pipeline." | trans }}</h4>
 			</div>
 			<div class="col-md-5">
 				<img src="/static/demo.images/intro-web-layer.png" />
@@ -72,19 +72,60 @@
 		</div>
 	</section>
 	<section class="introduction">
-		About Multiple ORM support
+		<div class="row">
+			<div class="col-md-7">
+				<h3>{{ "Multiple ORM Support" | trans }}</h3>
+				<h4>{{ "Support EFCore, NHibernate, Dapper, MongoDB, InMemory, through the same interface." | trans }}</h4>
+				<h4>{{ "Support automatic database scheme migration for EFCore and NHibernate." | trans }}</h4>
+			</div>
+			<div class="col-md-5">
+				<img src="/static/demo.images/intro-orm-support.png" />
+			</div>
+		</div>
 	</section>
 	<section class="introduction">
-		About Template system
+		<div class="row">
+			<div class="col-md-7">
+				<h3>{{ "Dotliquid Template" | trans }}</h3>
+				<h4>{{ "Dotliquid template engine, django and rails like syntax." | trans }}</h4>
+				<h4>{{ "Support django style template overriding over plugins." | trans }}</h4>
+				<h4>{{ "Support mobile specialized templates." | trans }}</h4>
+				<h4>{{ "Support dynamic contents (area-widget model)." | trans }}</h4>
+				<h4>{{ "Support per-widget render cache for extremely fast rending." | trans }}</h4>
+			</div>
+			<div class="col-md-5">
+				<img src="/static/demo.images/intro-dotliquid.png" />
+			</div>
+		</div>
 	</section>
 	<section class="introduction">
-		About Project toolkit
+		<div class="row">
+			<div class="col-md-7">
+				<h3>{{ "Project toolkits" | trans }}</h3>
+				<h4>{{ "Provide custom project creator, include command-line and gui version." | trans }}</h4>
+				<h4>{{ "Provide custom project publisher, include command-line and gui version." | trans }}</h4>
+			</div>
+			<div class="col-md-5">
+				<img src="/static/demo.images/intro-toolkit.jpg" />
+			</div>
+		</div>
 	</section>
 	<section class="introduction">
-		About demo site
+		<div class="row">
+			<div class="col-md-7">
+				<h3>{{ "Demo site" | trans }}</h3>
+				<h4>{{ "Provide free and open source default plugins." | trans }}</h4>
+				<h4>{{ "Include admin panel, form builder, CRUD page scaffolding." | trans }}</h4>
+				<h4><a href="{{ "/admin" | url }}">{{ "Visit demo site (Username: demo, Password: 123456)" | trans }}</a></h4>
+			</div>
+			<div class="col-md-5">
+				<img src="/static/demo.images/intro-demo.jpg" />
+			</div>
+		</div>
 	</section>
 	<section class="footer">
-		Here is footer
+		<p>MIT License</p>
+		<p>Copyright © 2016 303248153@github</p>
 	</section>
 	{% include_js_here "/static/common.base.js/components.min.js" %}
 	{% include_js_here "/static/demo.js/index.min.js" %}

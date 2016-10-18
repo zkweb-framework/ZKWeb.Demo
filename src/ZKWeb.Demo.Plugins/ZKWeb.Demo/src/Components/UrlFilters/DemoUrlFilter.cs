@@ -12,8 +12,13 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.UrlFilters {
 		/// </summary>
 		/// <param name="url">url地址</param>
 		public void Filter(ref string url) {
-			if (url == "/") {
-				url = "/demo";
+			if (url != "/")
+				return;
+			url = "/demo";
+			foreach (var filter in Application.Ioc.ResolveMany<IUrlFilter>()) {
+				if (!(filter is DemoUrlFilter)) {
+					filter.Filter(ref url);
+				}
 			}
 		}
 	}

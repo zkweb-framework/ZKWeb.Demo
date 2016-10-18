@@ -59,3 +59,13 @@
 	border-bottom: 1px solid #e5e5e5;
 	opacity: 0;
 }
+
+.footer {
+	padding: 20px 40px;
+	background: #34495E;
+	color: #fff;
+
+	> p {
+		text-align: center;
+	}
+}
