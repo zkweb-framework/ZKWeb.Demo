@@ -15,7 +15,6 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 			{ "Demo", "演示" },
 			{ "Trun website into demo mode", "启用网站的演示模式" },
 			{ "Edit or delete demo account is not allowed", "不允许编辑或删除演示用的账号" },
-			// TODO: 翻译
 			{ "View on GITHUB", "在GITHUB上查看" },
 			{ "Flexible web framework support .Net Framework and .Net Core",
 				"灵活高效的网站开发框架，支持.Net Framework和.Net Core" },
@@ -52,8 +51,7 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 			{ "Include admin panel, form builder, CRUD page scaffolding.",
 				"包含管理面板，表单构建器和增删查改页面生成器。" },
 			{ "Visit demo site (Username: demo, Password: 123456)",
-				"访问示例站点 (用户名: demo, 密码: 123456)" },
-			{ "Github (Default Plugins)", "Github (默认插件)" }
+				"访问示例站点 (用户名: demo, 密码: 123456)" }
 		};
 
 		public bool CanTranslate(string code) {
