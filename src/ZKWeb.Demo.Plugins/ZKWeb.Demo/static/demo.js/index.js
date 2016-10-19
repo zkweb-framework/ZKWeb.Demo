@@ -18,7 +18,7 @@ $(function () {
 	var onScroll = function () {
 		$(".introduction").each(function () {
 			var $this = $(this);
-			if (visible($this, 50)) {
+			if (visible($this, 50) || window.chrome) {
 				makeReady($this);
 			}
 		});

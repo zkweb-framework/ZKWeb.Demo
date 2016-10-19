@@ -1,6 +1,7 @@
 ﻿.header {
 	padding: 40px;
 	background: #34495E;
+	position: relative;
 
 	> .view-on-github {
 		position: absolute;
@@ -55,9 +56,12 @@
 }
 
 .introduction {
-	padding: 40px;
+	> .row {
+		padding: 40px;
+	}
+
 	border-bottom: 1px solid #e5e5e5;
-	opacity: 0;
+	/* opacity: 0; */
 }
 
 .footer {
