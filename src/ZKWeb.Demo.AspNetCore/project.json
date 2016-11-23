@@ -3,7 +3,7 @@
 	"dependencies": {
 		"Microsoft.AspNetCore.Server.IISIntegration": "1.1.0",
 		"Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
-		"ZKWeb": "1.3.0-beta-1",
+		"ZKWeb": "1.3.0-beta-2",
 		"ZKWeb.Hosting.AspNetCore": "1.3.0-beta-1",
 		"ZKWeb.ORM.InMemory": "1.3.0-beta-1"
 	},
