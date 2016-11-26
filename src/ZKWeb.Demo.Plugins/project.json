@@ -1,7 +1,7 @@
 {
 	"version": "1.0.0-*",
 	"dependencies": {
-		"ZKWeb": "1.3.0-beta-2",
+		"ZKWeb": "1.3.0-beta-3",
 		"ZKWeb.Plugins": "1.0.0-beta-2",
 		"StackExchange.Redis": "1.1.608"
 	},
