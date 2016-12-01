@@ -13,7 +13,7 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 		private static Dictionary<string, string> Translates = new Dictionary<string, string>()
 		{
 			{ "Demo", "演示" },
-			{ "Trun website into demo mode", "启用网站的演示模式" },
+			{ "Trun website into demo mode", "启用网站的演示模式" }, // TODO: 删掉这一行
 			{ "Edit or delete demo account is not allowed", "不允许编辑或删除演示用的账号" },
 			{ "View on GITHUB", "在GITHUB上查看" },
 			{ "Flexible web framework support .Net Framework and .Net Core",
@@ -46,12 +46,14 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 				"提供独自的项目创建工具，包括命令行版本和界面版本。" },
 			{ "Provide custom project publisher, include command-line and gui version.",
 				"提供独自的项目发布工具，包括命令行版本和界面版本。" },
-			{ "Demo site", "示例站点" },
+			{ "Demo site", "演示站点" },
 			{ "Provide free and open source default plugins.", "提供免费和开源的默认插件。" },
 			{ "Include admin panel, form builder, CRUD page scaffolding.",
 				"包含管理面板，表单构建器和增删查改页面生成器。" },
 			{ "Visit demo site (Username: demo, Password: 123456)",
-				"访问示例站点 (用户名: demo, 密码: 123456)" }
+				"访问示例站点 (用户名: demo, 密码: 123456)" },
+			// TODO: 添加其他翻译
+			{ "ZKWeb demo site", "ZKWeb演示站点" }
 		};
 
 		public bool CanTranslate(string code) {

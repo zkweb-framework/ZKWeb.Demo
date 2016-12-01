@@ -1,5 +1,6 @@
 ﻿{
 	"Name": "Demo",
-	"Description": "Trun website into demo mode",
+	"Version": "0.0",
+	"Description": "ZKWeb demo site",
 	"Dependencies": [ "Common.Base" ]
 }
