@@ -1,7 +1,7 @@
 ﻿<ul class="nav">
 	<li><a href="{{ "/" | url }}"><i class="fa fa-home"></i>{{ "Index" | trans }}</a></li>
 	<li><a href="{{ "/product/list" | url }}"><i class="fa fa-diamond"></i>{{ "All Products" | trans }}</a></li>
-	<li><a href="{{ "/article/list" | url }}?menu-opened=true"><i class="fa fa-pencil"></i>{{ "AllArticles" | trans }}</a></li>
+	<li><a class="menupage-index" href="{{ "/article/list" | url }}"><i class="fa fa-pencil"></i>{{ "AllArticles" | trans }}</a></li>
 	<li><a href="{{ "/cart" | url }}"><i class="fa fa-shopping-cart"></i>{{ "Cart" | trans }}</a></li>
-	<li><a href="{{ "/home" | url }}?menu-opened=true"><i class="fa fa-user-circle-o"></i>{{ "User Panel" | trans }}</a></li>
+	<li><a class="menupage-index" href="{{ "/home" | url }}"><i class="fa fa-user-circle-o"></i>{{ "User Panel" | trans }}</a></li>
 </ul>
