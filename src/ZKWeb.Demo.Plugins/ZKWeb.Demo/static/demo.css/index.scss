@@ -31,7 +31,7 @@
 		display: block;
 		text-align: center;
 		width: 100%;
-		margin: 25px 15px 25px 25px;
+		padding: 5px 15px 25px 25px;
 	}
 
 	> .icons {
@@ -71,5 +71,27 @@
 
 	> p {
 		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		padding: 50px 0px 40px 0px;
+
+		> .summary {
+			color: #fff;
+			margin: 25px 0px 0px 0px;
+		}
+	}
+
+	.introduction {
+		> .row {
+			padding: 15px;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+		}
 	}
 }
