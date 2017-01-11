@@ -22,6 +22,7 @@
 		"Common.PesudoStatic",
 		"Common.Region",
 		"Common.SerialGenerate",
+		"Common.Datepicker",
 		"Finance.Payment",
 		"Finance.Payment.Alipay",
 		"Finance.Payment.Cash",
