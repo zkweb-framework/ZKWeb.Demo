@@ -51,7 +51,10 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 			{ "Include admin panel, form builder, CRUD page scaffolding.",
 				"管理者パネル、フォームビルダ、CRUDページ生成器を含めます。" },
 			{ "Visit demo site (Username: demo, Password: 123456)",
-				"デモサイトを開きます (アカウント: demo, パスワード: 123456)" }
+				"デモサイトを開きます (アカウント: demo, パスワード: 123456)" },
+			{ "ZKWeb demo site", "ZKWebデモサイト" },
+			{ "DemoIndex", "デモインデックス" },
+			{ "DemoNavMenu", "デモナビメニュー" }
 		};
 
 		public bool CanTranslate(string code) {

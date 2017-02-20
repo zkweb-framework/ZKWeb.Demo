@@ -51,7 +51,10 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 			{ "Include admin panel, form builder, CRUD page scaffolding.",
 				"관리 패널, 폼 빌더 및 삭제를 포함하면 검색 페이지 빌더를 변경하려면。" },
 			{ "Visit demo site (Username: demo, Password: 123456)",
-				"방문 데모 사이트 (사용자 이름: demo, 비밀번호: 123456)" }
+				"방문 데모 사이트 (사용자 이름: demo, 비밀번호: 123456)" },
+			{ "ZKWeb demo site", "ZKWeb 데모 사이트" },
+			{ "DemoIndex", "데모 색인" },
+			{ "DemoNavMenu", "데모 탐색 메뉴" }
 		};
 
 		public bool CanTranslate(string code) {
