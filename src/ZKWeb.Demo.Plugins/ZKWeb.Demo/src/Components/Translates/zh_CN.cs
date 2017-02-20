@@ -53,7 +53,9 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Components.Translates {
 			{ "Visit demo site (Username: demo, Password: 123456)",
 				"访问示例站点 (用户名: demo, 密码: 123456)" },
 			// TODO: 添加其他翻译
-			{ "ZKWeb demo site", "ZKWeb演示站点" }
+			{ "ZKWeb demo site", "ZKWeb演示站点" },
+			{ "DemoIndex", "演示首页" },
+			{ "DemoNavMenu", "演示导航栏" }
 		};
 
 		public bool CanTranslate(string code) {
