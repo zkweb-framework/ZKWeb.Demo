@@ -1,9 +1,9 @@
 {
 	"version": "1.0.0-*",
 	"dependencies": {
-		"ZKWeb": "1.5.3-final",
-		"ZKWeb.Hosting.AspNetCore": "1.5.3-final",
-		"ZKWeb.ORM.InMemory": "1.5.3-final"
+		"ZKWeb": "1.6.0-beta-1",
+		"ZKWeb.Hosting.AspNetCore": "1.6.0-beta-1",
+		"ZKWeb.ORM.InMemory": "1.6.0-beta-1"
 	},
 	"buildOptions": {
 		"emitEntryPoint": true
@@ -11,7 +11,7 @@
 	"frameworks": {
 		"net461": {
 			"dependencies": {
-				"ZKWeb.ORM.NHibernate": "1.5.3-final"
+				"ZKWeb.ORM.NHibernate": "1.6.0-beta-1"
 			}
 		},
 		"netcoreapp1.1": {
