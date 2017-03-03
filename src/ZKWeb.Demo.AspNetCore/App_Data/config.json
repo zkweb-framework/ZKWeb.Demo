@@ -29,6 +29,7 @@
 		"Common.DynamicForm.DatePicker",
 		"Finance.Payment",
 		"Finance.Payment.Alipay",
+		"Finance.Payment.AlipayMobile",
 		"Finance.Payment.Cash",
 		"Finance.Payment.OnArrive",
 		"Finance.Payment.Pingpp",
