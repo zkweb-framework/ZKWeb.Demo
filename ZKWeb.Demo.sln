@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}"
 EndProject
@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.AspNetCore", "src\ZKWeb.Demo.AspNetCore\ZKWeb.Demo.AspNetCore.xproj", "{C0A92286-86D9-4480-89A3-5EF14D756A55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZKWeb.Demo.AspNetCore", "src\ZKWeb.Demo.AspNetCore\ZKWeb.Demo.AspNetCore.csproj", "{C0A92286-86D9-4480-89A3-5EF14D756A55}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.Console", "src\ZKWeb.Demo.Console\ZKWeb.Demo.Console.xproj", "{A51B00CD-4703-4BBA-B45A-F25EF7B55621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZKWeb.Demo.Console", "src\ZKWeb.Demo.Console\ZKWeb.Demo.Console.csproj", "{A51B00CD-4703-4BBA-B45A-F25EF7B55621}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZKWeb.Demo.Plugins", "src\ZKWeb.Demo.Plugins\ZKWeb.Demo.Plugins.xproj", "{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZKWeb.Demo.Plugins", "src\ZKWeb.Demo.Plugins\ZKWeb.Demo.Plugins.csproj", "{DA2BBB61-461B-4B2B-B431-5A9B6A80CDAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
