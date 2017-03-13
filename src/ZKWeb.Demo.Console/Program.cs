@@ -14,7 +14,7 @@ namespace ZKWeb.Demo.Console {
 		public static void RunTests() {
 			Application.Initialize(
 				Path.Combine(Path.GetDirectoryName(typeof(Program).GetTypeInfo().Assembly.Location),
-				"../../../../../ZKWeb.Demo.AspNetCore"));
+				"../../../../ZKWeb.Demo.AspNetCore"));
 
 			var unitTestManager = Application.Ioc.Resolve<TestManager>();
 			unitTestManager.RunAllAssemblyTest(new TestConsoleEventHandler());
