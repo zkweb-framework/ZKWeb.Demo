@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="ZKWeb" Version="1.8.0" />
-    <PackageReference Include="ZKWeb.Plugins" Version="1.7.0" />
+    <PackageReference Include="ZKWeb.Plugins" Version="1.8.0" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
