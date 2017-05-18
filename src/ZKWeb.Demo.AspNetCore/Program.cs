@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
+using System;
+using Microsoft.Extensions.Configuration;
 
 namespace ZKWeb.Demo.AspNetCore {
 	/// <summary>
@@ -11,12 +13,22 @@ namespace ZKWeb.Demo.AspNetCore {
 		/// </summary>
 		/// <param name="args"></param>
 		public static void Main(string[] args) {
-			var host = new WebHostBuilder()
-				.UseKestrel()
-				.UseIISIntegration()
-				.UseStartup<Startup>()
-				.Build();
-			host.Run();
+			try {
+				var config = new ConfigurationBuilder()
+					.AddJsonFile("hosting.json", optional: true)
+					.AddCommandLine(args)
+					.Build();
+				var host = new WebHostBuilder()
+					.UseConfiguration(config)
+					.UseKestrel()
+					.UseIISIntegration()
+					.UseStartup<Startup>()
+					.Build();
+				host.Run();
+			} catch (Exception e) {
+				Console.WriteLine(e.ToString());
+				Environment.Exit(-1);
+			}
 		}
 	}
 }
