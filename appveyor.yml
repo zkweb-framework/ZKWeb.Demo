@@ -1,0 +1,23 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+before_build:
+- cmd: dotnet restore
+build:
+  verbosity: minimal
+after_build:
+- cmd: >-
+    cd ..
+
+    git clone https://github.com/zkweb-framework/ZKWeb.Plugins
+
+    dir
+
+    cd zkweb-demo\src\ZKWeb.Demo.AspNetCore\App_Data
+
+    del config.json
+
+    rename config.sqlite.json config.json
+
+    cd ..\..\ZKWeb.Demo.Console
+
+    dotnet run -f net461
