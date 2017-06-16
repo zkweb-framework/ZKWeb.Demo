@@ -19,7 +19,7 @@ namespace ZKWeb.Demo.Console {
 			var testManager = Application.Ioc.Resolve<TestManager>();
 			var testEventHandler = new TestConsoleEventHandler();
 			testManager.RunAllAssemblyTest(testEventHandler);
-			if (false /* TODO testEventHandler.CompletedInfo.Counter.Failed > 0 */) {
+			if (testEventHandler.CompletedInfo.Counter.Failed > 0) {
 				throw new Exception("Some test failed");
 			} else {
 				Console.ForegroundColor = ConsoleColor.Green;
