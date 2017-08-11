@@ -1,29 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net461;netcoreapp2.0</TargetFrameworks>
+		<AssemblyName>ZKWeb.Demo.Console</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<PackageId>ZKWeb.Demo.Console</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <TargetFrameworks>net461;netcoreapp1.1</TargetFrameworks>
-    <AssemblyName>ZKWeb.Demo.Console</AssemblyName>
-    <OutputType>Exe</OutputType>
-    <PackageId>ZKWeb.Demo.Console</PackageId>
-    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
-    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">1.1.1</RuntimeFrameworkVersion>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="ZKWeb" Version="2.0.0-beta-9a" />
+		<PackageReference Include="ZKWeb.Hosting.AspNetCore" Version="2.0.0-beta-9" />
+		<PackageReference Include="ZKWeb.ORM.InMemory" Version="2.0.0-beta-9" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ZKWeb" Version="1.9.0.1" />
-    <PackageReference Include="ZKWeb.Hosting.AspNetCore" Version="1.9.0" />
-    <PackageReference Include="ZKWeb.ORM.InMemory" Version="1.9.0" />
-  </ItemGroup>
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+		<PackageReference Include="ZKWeb.ORM.NHibernate" Version="2.0.0-beta-9" />
+	</ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
-    <PackageReference Include="ZKWeb.ORM.NHibernate" Version="1.9.0" />
-  </ItemGroup>
-
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">
-    <DefineConstants>$(DefineConstants);NETCORE</DefineConstants>
-  </PropertyGroup>
-
+	<PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">
+		<DefineConstants>$(DefineConstants);NETCORE</DefineConstants>
+	</PropertyGroup>
 </Project>
