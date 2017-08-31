@@ -9,6 +9,7 @@ This demo used plugins from [ZKWeb.Plugins](https://github.com/zkweb-framework/Z
 # How to run
 
 - Download this project from github
+- Download [ZKWeb.Plugins](https://github.com/zkweb-framework/ZKWeb.Plugins) from github
 - Modify 'Database' and 'ConnectionString' in 'src\ZKWeb.Demo.AspNetCore\App_Data\config.json'
   - or you can simply replace config.json with config.sqlite.json
 - Set ZKWeb.Demo.AspNetCore as primary project and run it
@@ -18,6 +19,8 @@ Ensure you have this diretory layout, and then run publish.bat:
 
 - zkweb
   - tools
+- zkweb.plugins
+  - ZKWeb.Plugins.sln
 - zkweb.mvvmdemo
   - publish.bat
 
