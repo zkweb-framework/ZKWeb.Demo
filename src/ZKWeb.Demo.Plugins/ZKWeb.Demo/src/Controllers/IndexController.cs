@@ -29,5 +29,14 @@ namespace ZKWeb.Demo.Plugins.ZKWeb.Demo.src.Controllers {
 		public IActionResult OriginalIndex() {
 			return new TemplateResult("common.base/index.html");
 		}
+
+		/// <summary>
+		/// 申请证书使用的页面
+		/// </summary>
+		/// <returns></returns>
+		[Action(".well-known/acme-challenge/removed")]
+		public string RequestHttps() {
+			return "removed";
+		}
 	}
 }
