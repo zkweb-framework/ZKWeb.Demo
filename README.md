@@ -1,8 +1,8 @@
 # MPA demo based on ZKWeb framework [![Build status](https://ci.appveyor.com/api/projects/status/vjg985iy47lkvi8b?svg=true)](https://ci.appveyor.com/project/303248153/zkweb-demo)
 
-This demo is host on [http://zkweb.org](http://zkweb.org)<br/>
-Index page: [http://zkweb.org/demo](http://zkweb.org/demo)<br/>
-Admin page: [http://zkweb.org/admin](http://zkweb.org/admin), account: demo, password: 123456<br/>
+This demo is host on [http://demo.zkweb.org](http://demo.zkweb.org)<br/>
+Index page: [http://demo.zkweb.org](http://demo.zkweb.org)<br/>
+Admin page: [http://demo.zkweb.org/admin](http://demo.zkweb.org/admin), account: demo, password: 123456<br/>
 
 This demo used plugins from [ZKWeb.Plugins](https://github.com/zkweb-framework/ZKWeb.Plugins), please see the README in this project too
 

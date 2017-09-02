@@ -3,7 +3,7 @@ echo this script is for build and publish demo site
 echo please ensure you have this directory layout
 echo - zkweb
 echo   - tools
-echo - zkweb.mvvmdemo
+echo - zkweb.demo
 echo   - publish.bat
 echo.
 
@@ -20,5 +20,5 @@ dotnet run -c Release -f net461
 cd ..\..
 
 echo publishing website...
-..\ZKWeb\Tools\WebsitePublisher.Cmd.Windows\ZKWeb.Toolkits.WebsitePublisher.Cmd.exe -r src\ZKWeb.Demo.AspNetCore -n "zkweb" -o "..\..\publish"
+..\ZKWeb\Tools\WebsitePublisher.Cmd.Windows\ZKWeb.Toolkits.WebsitePublisher.Cmd.exe -r src\ZKWeb.Demo.AspNetCore -n "zkweb.demo" -o "..\..\publish"
 pause
