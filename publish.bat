@@ -10,13 +10,13 @@ echo.
 echo building project...
 cd src\ZKWeb.Demo.AspNetCore
 dotnet restore
-dotnet build -c Release -f net461
+dotnet build -c Release -f netcoreapp2.0
 cd ..\..
 
 echo building plugins...
 cd src\ZKWeb.Demo.Console
 dotnet restore
-dotnet run -c Release -f net461
+dotnet run -c Release -f netcoreapp2.0
 cd ..\..
 
 echo publishing website...
