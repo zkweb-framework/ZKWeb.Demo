@@ -1,13 +1,22 @@
 #!/usr/bin/env bash
 set -e
 
-echo this script is for build and publish demo site
-echo please ensure you have this directory layout
-echo "- ZKWeb"
-echo "  - tools"
-echo "- ZKWeb.demo"
-echo "  - publish.sh"
-echo
+if [ ! -f "/usr/lib/gdiplus.dll" ]; then
+    echo "ERROR:"
+    echo "please install libgdiplus first:"
+    echo "================================"
+    echo "sudo apt-get install libgdiplus"
+    echo "cd /usr/lib"
+    echo "ln -s libgdiplus.so gdiplus.dll"
+    echo "================================"
+    exit
+fi
+
+if [ ! -d "../ZKWeb/Tools" ]; then
+    echo "ERROR:"
+    echo "please download ZKWeb and put it in the same directory as ZKWeb.Demo"
+    exit
+fi
 
 echo building project...
 cd src/ZKWeb.Demo.AspNetCore
