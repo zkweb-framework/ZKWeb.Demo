@@ -22,6 +22,6 @@ cd ..\..
 
 echo publishing website...
 ..\ZKWeb\Tools\WebsitePublisher.Cmd.Windows\ZKWeb.Toolkits.WebsitePublisher.Cmd.exe -r src\ZKWeb.Demo.AspNetCore -n "ZKWeb.Demo.Windows" -o "..\ZKWeb.Demo.Publish"
-echo "output directory: ..\ZKWeb.Demo.Publish"
+echo output directory: ..\ZKWeb.Demo.Publish
 pause
 
