@@ -5,6 +5,7 @@ echo - zkweb
 echo   - tools
 echo - zkweb.demo
 echo   - publish.bat
+echo - zkweb.plugins
 echo.
 
 echo building project...
@@ -20,6 +21,7 @@ dotnet run -c Release -f net461
 cd ..\..
 
 echo publishing website...
-..\ZKWeb\Tools\WebsitePublisher.Cmd.Windows\ZKWeb.Toolkits.WebsitePublisher.Cmd.exe -r src\ZKWeb.Demo.AspNetCore -n "zkweb.demo" -o "..\..\publish"
+..\ZKWeb\Tools\WebsitePublisher.Cmd.Windows\ZKWeb.Toolkits.WebsitePublisher.Cmd.exe -r src\ZKWeb.Demo.AspNetCore -n "ZKWeb.Demo.Windows" -o "..\ZKWeb.Demo.Publish"
+echo "output directory: ..\ZKWeb.Demo.Publish"
 pause
 

@@ -32,5 +32,5 @@ dotnet run -c Release -f netcoreapp2.0
 cd ../..
 
 echo publishing website...
-dotnet ../ZKWeb/Tools/WebsitePublisher.Cmd.NetCore/ZKWeb.Toolkits.WebsitePublisher.Cmd.dll -f netcoreapp2.0 -r src/ZKWeb.Demo.AspNetCore -n "zkweb.demo" -o "../ZKWeb.Demo.Publish"
-
+dotnet ../ZKWeb/Tools/WebsitePublisher.Cmd.NetCore/ZKWeb.Toolkits.WebsitePublisher.Cmd.dll -f netcoreapp2.0 -r src/ZKWeb.Demo.AspNetCore -n "ZKWeb.Demo.Ubuntu" -o "../ZKWeb.Demo.Publish"
+echo "output directory: ../ZKWeb.Demo.Publish"
