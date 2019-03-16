@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ZKWeb" Version="2.1.1" />
+    <PackageReference Include="ZKWeb" Version="2.2.0" />
     <PackageReference Include="ZKWeb.Plugins" Version="2.0.0" />
   </ItemGroup>
 
